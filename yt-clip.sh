@@ -15,9 +15,9 @@ echo -e "\n\n\tTest Data: URL: https://youtu.be/wzoJy26tIAI\tStart: 00:07:56\t\t
     echo -e "\n\tUsage: $0 <video-url> <start-point hh:mm:ss> <end-point hh:mm:ss> <output-directory> <output-file-name>\n" >&2		# yt-dlp
     # Prompt user for video URL
     read -r -p "Enter the video URL: " URL
-    # Prompt user for video start point in HH:MM:SS format  # EDIT: Add format valadation parsing with awk, test
+    # Prompt user for video start point in HH:MM:SS format  # EDIT: Add format validation parsing with awk, test
     read -r -p "Enter the video start point in HH:MM:SS format (Enter = 00:00:00): " SHHMMSS
-    # Prompt user for video end point in HH:MM:SS format    # EDIT: Add format valadation parsing with awk, test
+    # Prompt user for video end point in HH:MM:SS format    # EDIT: Add format validation parsing with awk, test
     read -r -p "Enter the video end point in HH:MM:SS format: " EHHMMSS
     # Prompt user for output folder
     read -r -p "Enter the output folder: " OUTPUT_FOLDER
